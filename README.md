@@ -22,8 +22,8 @@ Terraform project deploying OWASP Juice Shop (an intentionally vulnerable app) o
 ## Usage
 ```bash
 terraform init
-terraform apply -var="my_ip=<YOUR_IP>/32"
-terraform destroy -var="my_ip=<YOUR_IP>/32"
+terraform apply -var="my_ip=<IP>/32"
+terraform destroy -var="my_ip=<IP>/32"
 ```
 
 ⚠️ Juice Shop is deliberately vulnerable. Keep access restricted.
